@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>History Quiz</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel = "stylesheet" href = "govStyle.css">
+<script	type="text/javascript" src = "controller.js">
+</script>
+
+</head>
+
+<body>
+<div class = "header">
+	<header>
+	<h1>
+		Did you pay attention in history class?
+	</h1>
+	<header>
+</div>
+
+<div class = "l_aside">
+	<aside >
+	<nav>
+	<li>
+		<a href = "legislative.html">Legislative Branch</a>	</li>
+	<li>
+		<a href = "executive.html">Executive Branch</a>	</li>
+	<li>
+		<a href = "judicial.html">Judicial Branch</a>	</li>
+	<li>
+		<a href = "index.html">Home</a>	</li>
+	
+	</nav>
+	</aside>
+</div>
+
+<div class = "quizdiv">
+	
+	<form class = "quizForm" method  = "Post" action = "javascript:nextQuestion()" onsubmit = "return validate()">
+		<h2 class = "htwo" id = "question">Who wrote the declaration of independence?</h2><br><br>
+		<p id = "after"></p>
+		<div class = "buttons" id ="buttons">
+			<input type = "radio" name = "answers" id = "A"><label id = "labelA">Thomas Jefferson</label><br>
+			<input type = "radio" name = "answers" id = "B"><label id = "labelB">John Adams</label><br>
+			<input type = "radio" name = "answers" id = "C" ><label id = "labelC">James Madison</label><br>
+			<input type = "radio" name = "answers" id = "D"><label id = "labelD">George Washington</label><br><br>
+			<input type = "submit" value = "Next">
+		</div>
+	</form>
+	
+</div>
+
+
+<script	type="text/javascript" src = "controller.js"></script>
+</body>
+</html>

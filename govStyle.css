@@ -1,0 +1,71 @@
+h1{
+	text-align: center;
+	color: white;
+}
+header{
+	background-color: navy;
+	padding-top:25px;
+	padding-bottom: 25 px;
+}
+article{
+	margin-left: 25%;
+	margin-right:25%;
+	padding-top:20px;
+	border-left: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	
+}
+h2{
+	color:navy;
+	text-align:center;
+}
+p{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.r_aside{
+	float:right;
+	padding-right: 25px;
+}
+.cap{
+	width: 250px;
+	padding-top:10px;	
+}
+.l_aside{
+	float: left;
+}
+
+.map1{
+
+	padding: 10px;
+}
+table{
+
+	margin-left: 20px;
+	margin-bottom:10px;
+	
+}
+.tblView1{
+	margin-left:20px;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+.senate{
+	width:250px;
+	padding-top:50px;
+}
+
+.quizdiv{
+	margin-left: 25%;
+	border: 1px solid navy;
+	padding: 5px;
+	
+}
+.htwo{ float:left;}
+
+
+.buttons{padding-top: 50px;}
+.correct{color: green;}
+.wrong{color: red;}
